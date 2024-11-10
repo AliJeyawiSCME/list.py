@@ -6,6 +6,6 @@ def reverse(list):
 
     return result
 
-list1 = [1,2,3,4,5,6]
-list2 = reverse(list1)
-print(list2)
+list1 = [7,8,9,2,3]
+list1.reverse()
+print(list1)
