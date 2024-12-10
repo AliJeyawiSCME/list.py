@@ -21,7 +21,7 @@ class LinkedList:
         else:
             self.__tail.next = newNode
             self.__tail = self.__tail.next 
-
+        self.__size += 1
 
     def insert(self, index, e):
         if index == 0:
