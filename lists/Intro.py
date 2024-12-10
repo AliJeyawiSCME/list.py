@@ -148,6 +148,9 @@ main()
    
 #nPrintln("Welcome to SCME.ps", 10)
 
+def linkedListOp():
+    from linkedList import LinkedList
+    ls = LinkedList
 
 
 #22 Oct
@@ -259,5 +262,7 @@ if x==14:
     SumTable()
 if x==15:
     QuizSystem()
+if x==16:
+    linkedListOp()
 else:
     print("Error! Try Again....")
