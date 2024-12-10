@@ -150,8 +150,19 @@ main()
 
 def linkedListOp():
     from linkedList import LinkedList
-    ls = LinkedList
+    lst = LinkedList()
 
+    lst.add("Hebron")
+    print("(1)", lst)
+
+    lst.insert(0, "Bethlehem")
+    print("(2)", lst)
+
+    lst.addLast("Ramallah")
+    print("(3)", lst)
+
+    lst.addFirst("Poland")
+    print("(4)", lst)
 
 #22 Oct
 
