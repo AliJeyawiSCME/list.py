@@ -152,17 +152,52 @@ def linkedListOp():
     from linkedList import LinkedList
     lst = LinkedList()
 
-    lst.add("Hebron")
+    lst.add("America")
     print("(1)", lst)
 
-    lst.insert(0, "Bethlehem")
+    lst.insert(0, "Canada")
     print("(2)", lst)
 
-    lst.addLast("Ramallah")
+    lst.add("Russia")
     print("(3)", lst)
 
-    lst.addFirst("Poland")
+    lst.addLast("France")
     print("(4)", lst)
+
+    lst.insert(2, "Germany")
+    print("(5)", lst)
+
+    lst.insert(5, "Norway")
+    print("(6)", lst)
+
+    lst.insert(0, "Poland")
+    print("(7)", lst)
+
+    lst.removeAt(0)
+    print("(8)", lst)
+
+    lst.removeAt(2)
+    print("(9)", lst)
+
+    lst.removeAt(lst.getSize() - 1)
+    print("(10)", lst)
+
+    listt = LinkedList()
+
+    listt.add(1)
+    listt.add(2)
+    listt.add(3)
+    listt.add(-3)
+    for e in listt:
+        print(e, end = ' ')
+    print()
+
+    iterator = iter(listt)
+    print(next(iterator))
+    print(next(iterator))
+    print(next(iterator))
+    print(next(iterator))
+
 
 #22 Oct
 
